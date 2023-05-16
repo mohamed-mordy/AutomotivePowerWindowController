@@ -1,0 +1,14 @@
+.\exe\objects\sampling_input.o: Sampling_Input.c
+.\exe\objects\sampling_input.o: .\os\include\FreeRTOS.h
+.\exe\objects\sampling_input.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\exe\objects\sampling_input.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\exe\objects\sampling_input.o: .\config\FreeRTOSConfig.h
+.\exe\objects\sampling_input.o: .\os\include\projdefs.h
+.\exe\objects\sampling_input.o: .\os\include\portable.h
+.\exe\objects\sampling_input.o: .\os\include\deprecated_definitions.h
+.\exe\objects\sampling_input.o: .\os\include\portmacro.h
+.\exe\objects\sampling_input.o: .\os\include\mpu_wrappers.h
+.\exe\objects\sampling_input.o: .\os\include\semphr.h
+.\exe\objects\sampling_input.o: .\os\include\queue.h
+.\exe\objects\sampling_input.o: .\os\include\task.h
+.\exe\objects\sampling_input.o: .\os\include\list.h

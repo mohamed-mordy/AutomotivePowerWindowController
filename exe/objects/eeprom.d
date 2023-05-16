@@ -1,0 +1,13 @@
+.\exe\objects\eeprom.o: driverlib\eeprom.c
+.\exe\objects\eeprom.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\exe\objects\eeprom.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\exe\objects\eeprom.o: ./inc/hw_eeprom.h
+.\exe\objects\eeprom.o: ./inc/hw_flash.h
+.\exe\objects\eeprom.o: ./inc/hw_ints.h
+.\exe\objects\eeprom.o: ./inc/hw_sysctl.h
+.\exe\objects\eeprom.o: ./inc/hw_types.h
+.\exe\objects\eeprom.o: ./driverlib/debug.h
+.\exe\objects\eeprom.o: ./driverlib/flash.h
+.\exe\objects\eeprom.o: ./driverlib/interrupt.h
+.\exe\objects\eeprom.o: ./driverlib/sysctl.h
+.\exe\objects\eeprom.o: ./driverlib/eeprom.h

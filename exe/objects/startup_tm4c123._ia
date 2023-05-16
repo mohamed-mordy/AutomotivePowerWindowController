@@ -1,0 +1,6 @@
+--cpu Cortex-M4.fp.sp --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1"
+-IC:\Keil_v5\ARM\RV31\INC
+-IC:\Keil_v5\ARM\CMSIS\Include
+-IC:\Keil_v5\ARM\INC\TI\TM4C123
+--pd "__UVISION_VERSION SETA 529"
+--list .\exe\list\startup_tm4c123.lst --xref -o .\exe\objects\startup_tm4c123.o --depend .\exe\objects\startup_tm4c123.d "app\startup_TM4C123.s"

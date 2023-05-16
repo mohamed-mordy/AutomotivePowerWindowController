@@ -1,0 +1,12 @@
+.\exe\objects\onewire.o: driverlib\onewire.c
+.\exe\objects\onewire.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\exe\objects\onewire.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\exe\objects\onewire.o: ./inc/hw_ints.h
+.\exe\objects\onewire.o: ./inc/hw_memmap.h
+.\exe\objects\onewire.o: ./inc/hw_onewire.h
+.\exe\objects\onewire.o: ./inc/hw_sysctl.h
+.\exe\objects\onewire.o: ./inc/hw_types.h
+.\exe\objects\onewire.o: ./driverlib/debug.h
+.\exe\objects\onewire.o: ./driverlib/interrupt.h
+.\exe\objects\onewire.o: ./driverlib/onewire.h
+.\exe\objects\onewire.o: ./driverlib/sysctl.h

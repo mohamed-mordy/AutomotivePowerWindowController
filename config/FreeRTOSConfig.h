@@ -1,5 +1,5 @@
 /*
- * FreeRTOS Kernel V10.3.0
+ * FreeRTOS Kernel V10.2.0
  * Copyright (C) 2019 Amazon.com, Inc. or its affiliates.  All Rights Reserved.
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy of
@@ -43,7 +43,6 @@
 
 #if (defined(__ARMCC_VERSION) || defined(__GNUC__) || defined(__ICCARM__))
 #include <stdint.h>
-#include "TM4C123GH6PM.h"
 
 extern uint32_t SystemCoreClock;
 #endif
@@ -51,8 +50,8 @@ extern uint32_t SystemCoreClock;
 /* Constants that describe the hardware and memory usage. */
 #define configCPU_CLOCK_HZ                    (SystemCoreClock)
 #define configTICK_RATE_HZ                    ((TickType_t)1000)
-#define configTOTAL_HEAP_SIZE                 ((size_t)4096)
-#define configMINIMAL_STACK_SIZE              ((uint16_t)256)
+#define configTOTAL_HEAP_SIZE                 ((size_t)20384)
+#define configMINIMAL_STACK_SIZE              ((uint16_t)128)
 #define configSUPPORT_DYNAMIC_ALLOCATION      1
 #define configSUPPORT_STATIC_ALLOCATION       0
 
@@ -65,7 +64,7 @@ extern uint32_t SystemCoreClock;
 #define configUSE_16_BIT_TICKS                0
 
 /* Software timer definitions. */
-#define configUSE_TIMERS                      0
+#define configUSE_TIMERS                      1
 #define configTIMER_TASK_PRIORITY             2
 #define configTIMER_QUEUE_LENGTH              5
 #define configTIMER_TASK_STACK_DEPTH          (configMINIMAL_STACK_SIZE * 2)
@@ -134,7 +133,7 @@ extern uint32_t SystemCoreClock;
 #define INCLUDE_uxTaskPriorityGet             1
 #define INCLUDE_vTaskDelete                   1
 #define INCLUDE_vTaskSuspend                  1
-#define INCLUDE_xTaskDelayUntil               1
+#define INCLUDE_vTaskDelayUntil               1
 #define INCLUDE_vTaskDelay                    1
 #define INCLUDE_xTaskGetIdleTaskHandle        1
 #define INCLUDE_xTaskAbortDelay               1
@@ -145,7 +144,7 @@ extern uint32_t SystemCoreClock;
 #define INCLUDE_uxTaskGetStackHighWaterMark2  1
 #define INCLUDE_eTaskGetState                 1
 #define INCLUDE_xTaskResumeFromISR            1
-#define INCLUDE_xTimerPendFunctionCall        0
+#define INCLUDE_xTimerPendFunctionCall        1
 #define INCLUDE_xTaskGetSchedulerState        1
 #define INCLUDE_xTaskGetCurrentTaskHandle     1
 

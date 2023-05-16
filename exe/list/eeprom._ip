@@ -1,0 +1,6 @@
+driverlib\eeprom.c -E -c --cpu Cortex-M4.fp.sp -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I ./ -I .\os\include -I .\config -I .\inc -I .\driverlib
+-IC:\Keil_v5\ARM\RV31\INC
+-IC:\Keil_v5\ARM\CMSIS\Include
+-IC:\Keil_v5\ARM\INC\TI\TM4C123
+-D__UVISION_VERSION="529" -DTM4C123GH6PM
+-o .\exe\list\eeprom.i

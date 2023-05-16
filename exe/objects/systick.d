@@ -1,0 +1,9 @@
+.\exe\objects\systick.o: driverlib\systick.c
+.\exe\objects\systick.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\exe\objects\systick.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\exe\objects\systick.o: ./inc/hw_ints.h
+.\exe\objects\systick.o: ./inc/hw_nvic.h
+.\exe\objects\systick.o: ./inc/hw_types.h
+.\exe\objects\systick.o: ./driverlib/debug.h
+.\exe\objects\systick.o: ./driverlib/interrupt.h
+.\exe\objects\systick.o: ./driverlib/systick.h

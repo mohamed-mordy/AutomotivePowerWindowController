@@ -1,0 +1,10 @@
+.\exe\objects\des.o: driverlib\des.c
+.\exe\objects\des.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\exe\objects\des.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\exe\objects\des.o: ./inc/hw_des.h
+.\exe\objects\des.o: ./inc/hw_ints.h
+.\exe\objects\des.o: ./inc/hw_memmap.h
+.\exe\objects\des.o: ./inc/hw_types.h
+.\exe\objects\des.o: ./driverlib/debug.h
+.\exe\objects\des.o: ./driverlib/des.h
+.\exe\objects\des.o: ./driverlib/interrupt.h

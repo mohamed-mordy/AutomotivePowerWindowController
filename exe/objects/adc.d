@@ -1,0 +1,11 @@
+.\exe\objects\adc.o: driverlib\adc.c
+.\exe\objects\adc.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\exe\objects\adc.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\exe\objects\adc.o: ./inc/hw_adc.h
+.\exe\objects\adc.o: ./inc/hw_ints.h
+.\exe\objects\adc.o: ./inc/hw_memmap.h
+.\exe\objects\adc.o: ./inc/hw_types.h
+.\exe\objects\adc.o: ./inc/hw_sysctl.h
+.\exe\objects\adc.o: ./driverlib/adc.h
+.\exe\objects\adc.o: ./driverlib/debug.h
+.\exe\objects\adc.o: ./driverlib/interrupt.h
